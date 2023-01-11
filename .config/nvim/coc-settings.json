@@ -1,0 +1,25 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.format.enable": true,
+  "coc.preferences.bracketEnterImprove": true,
+  "eslint.options": {
+      "extends": "standard",
+      "rules": {
+        "semi": [2, "always"],
+        "object-curly-spacing": "always",
+        "no-unreachable": "warn",
+        "no-invalid-regexp": "error"
+    }
+  },
+  "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "tsserver.formatOnType": true,
+  "coc.preferences.formatOnType": true,
+  "svelte.enable-ts-plugin": true,
+  "rust-analyzer.server.path": "/data/data/com.termux/files/usr/bin/rust-analyzer"
+}
